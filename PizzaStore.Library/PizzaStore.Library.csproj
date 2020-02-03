@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Library\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzaStore.DataAccess\PizzaStore.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
