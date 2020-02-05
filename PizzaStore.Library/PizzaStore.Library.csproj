@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Library\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PizzaStore.DataAccess\PizzaStore.DataAccess.csproj" />
   </ItemGroup>
 

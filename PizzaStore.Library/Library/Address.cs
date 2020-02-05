@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PizzaStore.Library.Library
 {
-   public class Store
+  public class Address
     {
         public int Id { get; set; }
         public string City { get; set; }
@@ -12,6 +12,5 @@ namespace PizzaStore.Library.Library
         public string Address1 { get; set; }
         public string Street { get; set; }
         public string PhoneNumber { get; set; }
-        public string name { get; set; }
     }
 }
